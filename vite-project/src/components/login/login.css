@@ -27,15 +27,6 @@ a{
     font-size:1.5em;
 }
 .entrar{
-    background-color: rgb(183, 201, 233);
-    padding:0.9vw 1.4vw;
-    border-radius: 25px 25px;
-    border:4px solid rgba(36, 103, 218, 0.623);
     box-shadow: 5px 5px 12px rgb(17, 15, 24);
-}
-.entrar:hover{
-    transition: 0.4s;
-    background-color: rgb(110, 132, 168);
-    border:4px solid rgba(18, 61, 136, 0.623);
-    color:rgb(25, 49, 95)
+    font-size: 1.6em;
 }

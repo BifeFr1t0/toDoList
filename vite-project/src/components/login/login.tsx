@@ -1,5 +1,6 @@
 import './login.css'
 import logo from './foto.png'
+import Button from '@mui/material/Button';
 
 function Login(){
     return (
@@ -11,9 +12,9 @@ function Login(){
                     <h2>TO DO LIST</h2>
                 </div>
                 <div className="login">
-                    <a className="entrar" href='../../Login.tsx'>
+                    <Button variant='text' className='entrar'>
                         Entrar
-                    </a>
+                    </Button>
                 </div>
             </header>
         </div>
