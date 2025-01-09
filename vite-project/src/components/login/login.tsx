@@ -1,6 +1,11 @@
 import './login.css'
 import logo from './foto.png'
-import Button from '@mui/material/Button';
+import Button from '@mui/material/Button'
+import LoginIcon from '@mui/icons-material/Login'
+import {styled} from '@mui/system';
+import { Link } from "react-router";
+
+const CustomButton = styled(Button)({borderRadius:'14px 14px', padding:'0.9vw 1.2vw'})
 
 function Login(){
     return (
@@ -12,9 +17,10 @@ function Login(){
                     <h2>TO DO LIST</h2>
                 </div>
                 <div className="login">
-                    <Button variant='text' className='entrar'>
-                        Entrar
-                    </Button>
+                <CustomButton color="secondary" aria-label="Log in" size='large' variant='contained'>
+                    Entrar
+                    <LoginIcon/>
+                </CustomButton>
                 </div>
             </header>
         </div>

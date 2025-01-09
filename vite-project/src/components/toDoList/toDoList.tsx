@@ -1,4 +1,10 @@
 import './toDoList.css'
+import Button from '@mui/material/Button'
+import { styled } from '@mui/system';
+import SendIcon from '@mui/icons-material/Send';
+
+const CustomButton = styled(Button)({ borderRadius:'0px 20px 20px 0px', fontFamily: 'Helvetica'});
+
 
 function ToDoList(){
     return (
@@ -6,7 +12,10 @@ function ToDoList(){
             <main>
                <section className='input'>
                     <input type="text" />
-                    <button>Enviar</button>
+                    <CustomButton variant='contained' size='large' color='success' className='enviar'>
+                        <h4>Enviar &nbsp;</h4>
+                        <SendIcon/>
+                    </CustomButton>
                 </section>
                 <section className='list'>
                         <div className="toDo"> 
