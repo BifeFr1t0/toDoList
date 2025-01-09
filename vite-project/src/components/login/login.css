@@ -17,6 +17,14 @@ header{
     display: flex;
     align-items: center;
 }
+.link{
+    color:azure;
+    display: flex;
+    align-items: center;
+}
+.link:hover{
+    color:azure;
+}
 img{
     width: 8vw;
 }
